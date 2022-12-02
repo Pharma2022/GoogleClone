@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+display: flex;
+margin: 4.5em auto;
+flex-direction: column;
+justify-content: center;   
+}
+
+.logo-img {
+    display: block;
+    width: 18.75em ;  
+    margin: 0 auto 1.25em auto;
+
+}
+
+.search-input {
+    display: block;
+    
+    width: 25em;
+ margin:0 auto;
+    line-height: 1.5em;
+    
+    padding: 0.625em  1.875em ;
+   
+    border: 1px solid #dfe1e5;
+    border-radius: 1.5em;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+       font-size: 0.875rem;
+    margin: 1.875rem 0.25rem 0.25rem 0;
+    background: #dfe1e5;
+    border: none;
+    padding: 0.5rem 1rem ;
+  
+    border-radius: 4px;
+ 
+}
+
